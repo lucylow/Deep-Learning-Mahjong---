@@ -1,10 +1,9 @@
 # Deep Learning Mahjong [麻將]
 
 ## Mahjong [机器学习 深度学习 麻將] 
-* 3 or 4 player draw-and-discard game
+* 3 or 4 player draw-and-discard game with 144 tiles based on Chinese characters and symbols
 * Match open pairs of identical tiles, remove from board, exposing the tiles under them for play - until all pairs of tiles have been removed from the board or no more exposed pairs remaining
 * Involves skill, strategy, calculation, and moderate degree of chance
-* 144 tiles based on Chinese characters and symbols
 
 
 ## Types [Make Configurable]
@@ -20,7 +19,7 @@
 * Simples [108]
     * Dots 36
     * Bamboo 36
-    * Characterss 36
+    * Characters 36
 
 * Honors [28]
     * Winds - [North West South East] 16
