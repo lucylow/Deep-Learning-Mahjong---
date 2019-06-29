@@ -1,4 +1,4 @@
-# Deep-Learning-Mahjong
+# Deep Learning Mahjong 麻將
 
 ## Mahjong [机器学习 深度学习 麻將] 
 * 3 or 4 player game
@@ -10,10 +10,10 @@
 * Old Hong Kong/ Cantonese Mahjong
 * Competition Mahjong International Standard
 * Sichuan Mahjong
-* three-Player Mahjong [3-ka]
+* Three-Player Mahjong [3-ka]
 
 
-## Mahjong tile count per set [total 144]
+## Mahjong tile count per set [Total 144]
 * Simples 108
     * Dots 36
     * Bamboo 36
