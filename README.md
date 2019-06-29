@@ -1,7 +1,7 @@
 # Deep Learning Mahjong 麻將
 
 ## Mahjong [机器学习 深度学习 麻將] 
-* 3 or 4 player game
+* 3 or 4 player draw-and-discard game
 * Involves skill, strategy, calculation, and moderate degree of chance
 * 144 tiles based on Chinese characters and symbols
 
@@ -30,13 +30,17 @@
 ## Rules
 * TO-DO
 
+## References - Books
+* Rules of Mah-Jongg - Joseph Park Babcock
+* Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
+* The Complete Book of Mah-jongg - Alan D. Millington
 
 ## Tools
 * React Native [JS framemwork]
    * Bootstrap React Native app on any OS with no build config- https://github.com/react-community/create-react-native-app
-   * iOS moble
-   * Android mobile
+   * iOS Moble
+   * Android Mobile
 * Flask [Python]
-   * Flask framework
+   * Flask Framework
    * Flask-SocketIO
 *
