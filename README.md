@@ -33,5 +33,10 @@
 
 ## Tools
 * React Native [JS framemwork]
+   * Bootstrap React Native app on any OS with no build config- https://github.com/react-community/create-react-native-app
    * iOS moble
    * Android mobile
+* Flask [Python]
+   * Flask framework
+   * Flask-SocketIO
+*
