@@ -13,17 +13,17 @@
 * Three-Player Mahjong [3-ka]
 
 
-## Mahjong tile count per set [Total 144]
-* Simples 108
+## Mahjong Tile Count Per Set [Total 144]
+* Simples [108]
     * Dots 36
     * Bamboo 36
     * Characterss 36
 
-* Honors 28
+* Honors [28]
     * Winds - [North West South East] 16
     * Dragons - [Red Green White] 12
 
-* Bonus 8
+* Bonus [8]
     * Flower - [Plum blossom, Orchid, Chrysanthemum, Bamboo] 4
     * Seasons - [Spring, Summer, Autumn, Winter] 4
 
