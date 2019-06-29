@@ -2,6 +2,7 @@
 
 ## Mahjong [机器学习 深度学习 麻將] 
 * 3 or 4 player draw-and-discard game
+* Match open pairs of identical tiles, remove from board, exposing the tiles under them for play - until all pairs of tiles have been removed from the board or no more exposed pairs remaining
 * Involves skill, strategy, calculation, and moderate degree of chance
 * 144 tiles based on Chinese characters and symbols
 
@@ -10,7 +11,9 @@
 * Old Hong Kong/ Cantonese Mahjong
 * Competition Mahjong International Standard
 * Sichuan Mahjong
+* Taisen Mahjong
 * Three-Player Mahjong [3-ka]
+* Battle Mahjong [Player vs Cartoon npc]
 
 
 ## Mahjong Tile Count Per Set [Total 144]
@@ -46,10 +49,6 @@
 ## Rules
 * TO-DO
 
-## References - Books
-* Rules of Mah-Jongg - Joseph Park Babcock
-* Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
-* The Complete Book of Mah-jongg - Alan D. Millington
 
 ## Tools
 * React Native [JS framemwork]
@@ -59,4 +58,9 @@
 * Flask [Python]
    * Flask Framework
    * Flask-SocketIO
-*
+
+
+## References - Books
+* Rules of Mah-Jongg - Joseph Park Babcock
+* Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
+* The Complete Book of Mah-jongg - Alan D. Millington
