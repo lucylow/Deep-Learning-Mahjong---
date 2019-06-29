@@ -1,4 +1,4 @@
-# Deep Learning Mahjong 麻將
+# Deep Learning Mahjong [麻將]
 
 ## Mahjong [机器学习 深度学习 麻將] 
 * 3 or 4 player draw-and-discard game
@@ -28,20 +28,20 @@
     * Seasons - [Spring, Summer, Autumn, Winter] 4
 
 ## Mahjong Combos 
-* Heavenly Hand (天糊)
-* Great Winds (大四喜)
-* Great Dragons (大三元)
-* All Kongs (十八羅漢)
-* All Honor Tiles(字一色)
-* Thirteen Orphans (十三幺)
-* Nine Gates Hand (九蓮宝燈)
-* Self Triplets (四暗刻)
-* All in Triplets (對對糊)
-* Mixed one suit (混一色)
-* All one suit (清一色)
-* Common Hand(平糊)
-* Small Dragons (小三元)
-* Small Winds (小四喜)
+* Heavenly Hand [天糊]
+* Great Winds [大四喜]
+* Great Dragons [大三元]
+* All Kongs [十八羅漢]
+* All Honor Tiles[字一色]
+* Thirteen Orphans [十三幺]
+* Nine Gates Hand [九蓮宝燈]
+* Self Triplets [四暗刻]
+* All in Triplets [對對糊]
+* Mixed one suit [混一色]
+* All one suit [清一色]
+* Common Hand[平糊]
+* Small Dragons [小三元]
+* Small Winds [小四喜]
 
 ## Rules
 * TO-DO
