@@ -4,13 +4,14 @@
 * 3 or 4 player game
 * involves skill, strategy, calculation and moderate degree of chance
 * 144 tiles based on Chinese characters and symbols
-*
-*
 
-## Types
+
+## Types [Make Configurable]
 * Old Hong Kong/ Cantonese Mahjong
-*
-*
+* Competition Mahjong International Standard
+* Sichuan Mahjong
+* three-Player Mahjong [3-ka]
+
 
 ## Mahjong tile count per set [total 144]
 * Simples 
