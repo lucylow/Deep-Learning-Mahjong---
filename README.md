@@ -78,9 +78,9 @@
    
 
 ## Mahjong Search Gaming Optomization Algorithm
-* **Alpha-Beta Prunning **
+* **Alpha-Beta Prunning**
    * AI weeds out bad moves.
-* **“Lookahead” search algorithms **
+* **“Lookahead” search algorithms**
 * Open World Games 
    * Typically require thousands of hours of developer and artist time to render .
    * Become more efficient using **ML path-finding algorithms**.
