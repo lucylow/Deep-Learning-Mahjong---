@@ -36,14 +36,14 @@
 * Great Winds [大四喜]
 * Great Dragons [大三元]
 * All Kongs [十八羅漢]
-* All Honor Tiles[字一色]
+* All Honor Tiles [字一色]
 * Thirteen Orphans [十三幺]
 * Nine Gates Hand [九蓮宝燈]
 * Self Triplets [四暗刻]
 * All in Triplets [對對糊]
 * Mixed one suit [混一色]
 * All one suit [清一色]
-* Common Hand[平糊]
+* Common Hand [平糊]
 * Small Dragons [小三元]
 * Small Winds [小四喜]
 
@@ -80,16 +80,16 @@
 ## Mahjong Search Gaming Optomization Algorithm
 * **Alpha-Beta Prunning**
    * AI weeds out bad moves.
-* **“Lookahead” search algorithms**
+* **“Lookahead” Search Algorithms**
 * Open World Games 
    * Typically require thousands of hours of developer and artist time to render .
-   * Become more efficient using **ML path-finding algorithms**.
+   * Become more efficient using **ML Path-Finding Algorithms**.
    * Have the potential to be unlimited in size.
 
 
 ## Database
 * Optimize game data with databases.
-* **Pre-computed moves** for the beginning/end phrases of the game.
+* **Pre-Computed Moves** for the beginning/end phrases of the game.
 * Types of databases
    * Opening DB
    * Endgame DB 
