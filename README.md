@@ -111,7 +111,7 @@
 * Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
 * The Complete Book of Mah-jongg - Alan D. Millington
 
-## Crafted with love for my popo - HUI FANG HE 
+###### Crafted with love for my popo - HUI FANG HE 
 
 
 
