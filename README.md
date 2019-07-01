@@ -3,7 +3,7 @@
 ## Mahjong [机器学习 深度学习 麻將] 
 * 3 or 4 player **draw-and-discard game** with 144 tiles based on Chinese characters and symbols.
 * Match open pairs of identical tiles, remove from board, exposing the tiles under them for play - until all pairs of tiles have been removed from the board or no more exposed pairs remaining.
-* **ML algorithms** allows game to react and respond more ** dynamically ** and in more imaginative ways. Players get more realistic experiences and playable content in a game that involves skill, strategy, calculation, and chance.
+* **ML algorithms** allows game to react and respond more **dynamically** and in more imaginative ways. Players get more realistic experiences and playable content in a game that involvs skill, strategy, calculation, and chance.
 * **Deep neural network** with reinforcement learning implemented. Learn from its own game and top human players (via Classic Supervised Learning) where computations are made for every move or position.
 
 
