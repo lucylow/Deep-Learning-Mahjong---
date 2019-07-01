@@ -2,8 +2,8 @@
 
 ## Mahjong [机器学习 深度学习 麻將] 
 * 3 or 4 player **draw-and-discard game** with 144 tiles based on Chinese characters and symbols.
-* Match open pairs of identical tiles, remove from board, exposing the tiles under them for play - until all pairs of tiles have been removed from the board or no more exposed pairs remaining.
-* **ML Algorithms** allows game to react and respond more **dynamically** and in more imaginative ways. Players get more realistic experiences and playable content in a game that involvs skill, strategy, calculation, and chance.
+* Match open pairs of identical tiles, remove from board, exposing the tiles under them for play. Until all pairs of tiles have been removed from the board or no more exposed pairs remaining.
+* **ML Algorithms** allows game to react and respond more **dynamically and in more imaginative ways**. Players get more realistic experiences and playable content in a game that involvs skill, strategy, calculation, and chance.
 * **Deep Neural Network** with reinforcement learning implemented. Learn from its own game and top human players (via Classic Supervised Learning) where computations are made for every move or position.
 
 
@@ -49,32 +49,32 @@
 
 
 ## Mahjong Machine Learning  
-* Algorithms playing as NPCs (with adjustable difficulties) which respond to player’s actions in unique, unexpected ways. NPCs are non hard-coded. **Train NPCs by imitating top mahjong players** to learn dynamic movements and actions.
+* Algorithms playing as NPCs (with adjustable difficulties) which respond to player’s actions in unique, unexpected ways. NPCs are non hard-coded. **Train NPCs by imitating Top Mahjong Players** to learn dynamic movements and actions.
 * Computational modelling for complex systems such that game can predict and alter downstream effects:
    * Ex1: Team Dynamics - **Team chemistry score calculated** based on personalities of each gamer. 
    * Ex2: The morale of each player’s abilities as the game is being played in real-time.
-* Increased **aesthetics, immersion and realistim**:
+* Increased **Aesthetics, Immersion and Realistim**:
    * Ex: **Computer Vision Algorithms** used for mahjong textures and objects to **render dynamically** as player moves tiles on the board.
 * NPC-Player Interactions- **Natural Language Processing [NLP]** can be used to build realistic interactions in conversations and responses. 
    * Ex: Using Siri, Alexa, or Google Assistant for voice commands 
 
 
 ## Mahjong Deep Learning Algorthm
-* **AI will win through intelligence** rather than faster mechanicals speed (Computers can programatically issue commands instantly whereas humans must physically move a mouse or hit the keyboard.) - **Humans avg 300 actions per minute**.
+* **AI will win through intelligence** rather than faster mechanicals speed (Computers can programatically issue commands instantly whereas humans must physically move a mouse or hit the keyboard.) - **Humans average 300 actions per minute**.
 * Deep Neural Network
    * 3 **Hidden layers** of 120 neutrons 
    * 3 **Dropout layers** to optimize generalization and reduce over-fittingg 
       * Input - State
-      * Output - Values related to Mahjong actions
+      * Output - Values related to Mahjong Actions
    * Last layer uses **Softmax Function** to return probabilities 
 * Reinforcement Learning
    * **Markov Decision** process to make decisions involving a chain of if-then statements 
    * **Positive or Negative Reward**. Algorithm will learn what actions will maximize the reward and which to be avoided.
 * Deep Q-Learning
    * Q-table matrix
-   * Updates the **Q-table based on the prediction of future mahjong states**.
-   * Q-values updated according to the **Bellman equation**.
-   * Knowledge based hierarchy foundation [Goals, strategies, tactics, chains] where each objective inspects the current game state and decides which lower level objective will be best to achieve it. 
+   * Updates the **Q-table based on the Prediction of Future Mahjong States**.
+   * Q-values updated according to the **Bellman Equation**.
+   * Knowledge based hierarchy foundation [Goals, Strategies, Tactics, Chains] where each objective inspects the current game state and decides which lower level objective will be best to achieve it. 
    
 
 ## Mahjong Search Gaming Optomization Algorithm
