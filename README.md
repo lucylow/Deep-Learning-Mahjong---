@@ -41,8 +41,8 @@
 * Nine Gates Hand [九蓮宝燈]
 * Self Triplets [四暗刻]
 * All in Triplets [對對糊]
-* Mixed one suit [混一色]
-* All one suit [清一色]
+* Mixed One Suit [混一色]
+* All One Suit [清一色]
 * Common Hand [平糊]
 * Small Dragons [小三元]
 * Small Winds [小四喜]
@@ -54,7 +54,7 @@
    * Ex1: Team Dynamics - **Team chemistry score calculated** based on personalities of each gamer. 
    * Ex2: The morale of each player’s abilities as the game is being played in real-time.
 * Increased **aesthetics, immersion and realistim**:
-   * Ex: Computer Vision algorithms used for **mahjong textures and objects to render dynamically** as player moves tiles on the board.
+   * Ex: **Computer Vision Algorithms** used for mahjong textures and objects to **render dynamically** as player moves tiles on the board.
 * NPC-Player Interactions- **Natural Language Processing [NLP]** can be used to build realistic interactions in conversations and responses. 
    * Ex: Using Siri, Alexa, or Google Assistant for voice commands 
 
@@ -62,19 +62,19 @@
 ## Mahjong Deep Learning Algorthm
 * **AI will win through intelligence** rather than faster mechanicals speed (Computers can programatically issue commands instantly whereas humans must physically move a mouse or hit the keyboard.) - **Humans avg 300 actions per minute**.
 * Deep Neural Network
-   * 3 **hidden layers** of 120 neutrons 
-   * 3 **dropout layers** to optimize generalization and reduce over-fittingg 
+   * 3 **Hidden layers** of 120 neutrons 
+   * 3 **Dropout layers** to optimize generalization and reduce over-fittingg 
       * Input - State
       * Output - Values related to Mahjong actions
-   * last layer uses **softmax function** to return probabilities 
+   * Last layer uses **Softmax Function** to return probabilities 
 * Reinforcement Learning
-   * **Markov decision** process to make decisions involving a chain of if-then statements 
-   * **Positive or negative reward**. Algorithm will learn what actions will maximize the reward and which to be avoided.
+   * **Markov Decision** process to make decisions involving a chain of if-then statements 
+   * **Positive or Negative Reward**. Algorithm will learn what actions will maximize the reward and which to be avoided.
 * Deep Q-Learning
    * Q-table matrix
    * Updates the **Q-table based on the prediction of future mahjong states**.
    * Q-values updated according to the **Bellman equation**.
-   * Knowledge based hierarchy foundation [goals, strategies, tactics, chains] where each objective inspects the current game state and decides which lower level objective will be best to achieve it. 
+   * Knowledge based hierarchy foundation [Goals, strategies, tactics, chains] where each objective inspects the current game state and decides which lower level objective will be best to achieve it. 
    
 
 ## Mahjong Search Gaming Optomization Algorithm
@@ -82,7 +82,7 @@
    * AI weeds out bad moves.
 * **“Lookahead” Search Algorithms**
 * Open World Games 
-   * Typically require thousands of hours of developer and artist time to render .
+   * Typically require thousands of hours of developer and artist time to render.
    * Become more efficient using **ML Path-Finding Algorithms**.
    * Have the potential to be unlimited in size.
 
