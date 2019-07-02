@@ -8,7 +8,7 @@
 
 
 ## Types [Make Configurable]
-* Old Hong Kong/ Cantonese Mahjong
+* Old Hong Kong/ Cantonese Mahjong [DEFAULT MODE]
 * Competition Mahjong International Standard
 * Sichuan Mahjong
 * Taisen Mahjong
