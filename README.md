@@ -1,42 +1,34 @@
 # Deep Learning Mahjong [麻將]
 
 ## Mahjong [机器学习 深度学习 麻將] 
-* 3 or 4 player **draw-and-discard game** with 144 tiles based on Chinese characters and symbols.
 
-## Game Play
+#### Game Play
+* 3 or 4 player **draw-and-discard game** with 144 tiles based on Chinese characters and symbols.
 * Match open pairs of identical tiles, remove from board, exposing the tiles under them for play. 
 * Game ends when all pairs of tiles have been removed from the board or no more exposed pairs remaining.
 
-## Deep Learning
-* **ML Algorithms** allows game to react and respond more **dynamically and in more imaginative ways**. 
-* Players get more realistic experiences and playable content in a game that involves skill, strategy, calculation, and chance.
-* **Deep Neural Network** with reinforcement learning implemented. 
-* Learn from its own game and top human players (via Classic Supervised Learning) where computations are made for every move or position.
 
-
-## Types [Make Configurable]
+#### Types [Make Configurable]
 * Old Hong Kong/ Cantonese Mahjong [DEFAULT MODE :)]
 * Competitive Mahjong International Standard
 * Three-Player Mahjong [3-ka]
 * Battle Mahjong [Player vs Cartoon NPC]
 
 
-## Mahjong Tile Count Per Set [Total 144]
+#### Game Tile Count Per Set [Total 144]
 * **Simples** [108]
     * Dots 36
     * Bamboo 36
     * Characters 36
-
 * **Honors** [28]
     * Winds - [North West South East] 16
     * Dragons - [Red Green White] 12
-
 * **Bonus** [8]
     * Flower - [Plum Blossom, Orchid, Chrysanthemum, Bamboo] 4
     * Seasons - [Spring, Summer, Autumn, Winter] 4
 
 
-## Mahjong Combos 
+#### Mahjong Combos 
 * Heavenly Hand [天糊]
 * Great Winds [大四喜]
 * Great Dragons [大三元]
@@ -53,7 +45,18 @@
 * Small Winds [小四喜]
 
 
-## Technical Machine Learning  
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+## Technical Mahjong Game Documentation
+
+#### Deep Learning
+* **ML Algorithms** allows game to react and respond more **dynamically and in more imaginative ways**. 
+* Players get more realistic experiences and playable content in a game that involves skill, strategy, calculation, and chance.
+* **Deep Neural Network** with reinforcement learning implemented. 
+* Learn from its own game and top human players (via Classic Supervised Learning) where computations are made for every move or position.
+
+
+#### Machine Learning  
 * Non-Player Characters (NPCs)
    * Algorithms playing as NPCs (with adjustable difficulties) respond to player’s actions in unique, unexpected ways. 
    * NPCs are non hard-coded. 
@@ -69,7 +72,7 @@
    * Ex: **Computer Vision Algorithms** used for mahjong textures and objects to **render dynamically** as player moves tiles on the board.
 
 
-## Technical Deep Learning 
+#### Deep Learning 
 * Better Game Play
    * **AI will win through intelligence** rather than faster mechanicals speed.
    * Computers can programatically issue commands instantly whereas humans must physically move a mouse or hit the keyboard. *    * Specifically, humans average 300 actions per minute.
@@ -93,7 +96,7 @@
    * Q-values updated according to the **Bellman Equation**.
    
 
-## Mahjong Search Gaming Optomization Algorithm
+## Search Gaming Optomization Algorithm
 * **Alpha-Beta Prunning**
    * AI weeds out bad moves.
 * **“Lookahead” Search Algorithms**
@@ -111,7 +114,7 @@
    * Endgame DB 
 
 
-## Tools
+## Technical Tools
 * React Native [JS Framework]
    * Bootstrap React Native app on any OS with no build config- https://github.com/react-community/create-react-native-app
    * iOS Moble
