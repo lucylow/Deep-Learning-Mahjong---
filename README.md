@@ -45,7 +45,6 @@
 * Small Winds [小四喜]
 
 
-\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
 ## Technical Mahjong Game Documentation
 
@@ -68,12 +67,12 @@
    * Ex1: **Team chemistry score calculated** based on personalities of each gamer. 
    * Ex2: Morale of each player’s abilities as game is played in real-time.
    
-* Aesthetics
+* Game Aesthetics
    * Ex: **Computer Vision Algorithms** used for mahjong textures and objects to **render dynamically** as player moves tiles on the board.
 
 
 #### Deep Learning 
-* Better Game Play
+* DL Game Play
    * **AI will win through intelligence** rather than faster mechanicals speed.
    * Computers can programatically issue commands instantly whereas humans must physically move a mouse or hit the keyboard. *    * Specifically, humans average 300 actions per minute.
    * Knowledge based hierarchy foundation with **Goals, Strategies, Tactics, and Chains**. 
@@ -96,7 +95,7 @@
    * Q-values updated according to the **Bellman Equation**.
    
 
-## Search Gaming Optomization Algorithm
+#### Search Gaming Optomization Algorithm
 * **Alpha-Beta Prunning**
    * AI weeds out bad moves.
 * **“Lookahead” Search Algorithms**
@@ -106,15 +105,15 @@
    * Have the potential to be unlimited in size.
 
 
-## Database
+#### Database
 * Optimize game data with databases.
 * **Pre-Computed Moves** for the beginning/end phrases of the game.
-* Databases
+* Two Databases
    * Opening DB
    * Endgame DB 
 
 
-## Technical Tools
+#### Technical Tools
 * React Native [JS Framework]
    * Bootstrap React Native app on any OS with no build config- https://github.com/react-community/create-react-native-app
    * iOS Moble
