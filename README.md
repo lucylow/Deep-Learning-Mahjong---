@@ -1,4 +1,4 @@
-# Deep Learning Mahjong [机器学习 深度学习 麻將] &#x1F534;
+# Deep Learning Mahjong [机器学习深度学习麻將] &#x1F534;
 
 ## Mahjong [麻將] &#x1F534;
 
