@@ -2,6 +2,15 @@
 
 ## Mahjong [麻將] &#x1F534;
 
+<div align="center">
+  
+  [![Status](https://img.shields.io/badge/status-active-success.svg)]()
+  [![GitHub Issues](https://img.shields.io/github/issues/lucylow/Deep-Learning-Mahjong---.svg)](https://github.com/lucylow/Deep-Learning-Mahjong---/issues)
+  [![GitHub Pull Requests](https://img.shields.io/github/issues-pr/lucylow/Deep-Learning-Mahjong---.svg)](https://github.com/lucylow/Deep-Learning-Mahjong---/pulls)
+  [![License](https://img.shields.io/bower/l/bootstrap)]()
+
+</div>
+
 #### Game Play &#x1F53B;
 * 3 or 4 player **draw-and-discard game** with 144 tiles based on Chinese characters and symbols.
 * Match open pairs of identical tiles, remove from board, exposing the tiles under them for play. 
