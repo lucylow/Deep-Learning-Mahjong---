@@ -17,6 +17,7 @@
 * Game ends when all pairs of tiles have been removed from the board or no more exposed pairs remaining.
 * Players get more realistic experiences and playable content in a game that involves skill, strategy, calculation, and chance.
 
+---
 
 #### Types [Make Configurable] &#x1F534;
 * **Old Hong Kong / Cantonese Mahjong [DEFAULT MODE]**
@@ -54,7 +55,7 @@
 * Small Dragons [小三元]
 * Small Winds [小四喜]
 
-
+--- 
 
 ## Technical Mahjong Game Documentation [技术文档] &#x1F534;
 
@@ -133,6 +134,7 @@
    * Flask-SocketIO
 * Keras on top of Tensorflow
 
+--- 
 
 ## References - Books [图书] &#x1F534;
 * Rules of Mah-Jongg - Joseph Park Babcock
