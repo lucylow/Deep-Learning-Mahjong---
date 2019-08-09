@@ -2,7 +2,7 @@
 
 ## Mahjong [麻將] &#x1F534;
 
-<div align="center">
+<div>
   
   [![Status](https://img.shields.io/badge/status-active-success.svg)]()
   [![GitHub Issues](https://img.shields.io/github/issues/lucylow/Deep-Learning-Mahjong---.svg)](https://github.com/lucylow/Deep-Learning-Mahjong---/issues)
