@@ -10,7 +10,7 @@
 
 
 #### Types [Make Configurable] &#x1F534;
-* Old Hong Kong / Cantonese Mahjong [DEFAULT MODE]
+* **Old Hong Kong / Cantonese Mahjong [DEFAULT MODE]**
 * Competitive Mahjong International Standard
 * Three-Player Mahjong [3-ka]
 * Battle Mahjong [Player vs Cartoon NPC]
