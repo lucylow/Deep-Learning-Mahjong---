@@ -123,17 +123,6 @@
    * Opening DB
    * Endgame DB 
 
-
-#### Technical Tools [工具] &#x1F534;
-* React Native [JS Framework]
-   * Bootstrap React Native app on any OS with no build config- https://github.com/react-community/create-react-native-app
-   * iOS Moble
-   * Android Mobile
-* Flask [Python]
-   * Flask Framework
-   * Flask-SocketIO
-* Keras on top of Tensorflow
-
 --- 
 
 ## References - Books [图书] &#x1F534;
