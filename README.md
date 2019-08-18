@@ -41,6 +41,10 @@
 * **Bonus** [8]
     * Flower - [Plum Blossom, Orchid, Chrysanthemum, Bamboo] 4
     * Seasons - [Spring, Summer, Autumn, Winter] 4
+* Image of sample Mahjong tiles:
+
+![Image source Wikipedia](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/mahjong%20tiles.png)
+
 
 
 ---
@@ -69,6 +73,8 @@
 * **ML Algorithms** allows game to react and respond more **dynamically and in more imaginative ways**. 
 * **Deep Neural Network** with reinforcement learning implemented. 
 * Learn from its own game and top human players (via Classic Supervised Learning) where computations are made for every move or position.
+
+!(alt text here )[https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/game%20theory.png]
 
 
 ---
@@ -99,7 +105,7 @@
    * Knowledge based hierarchy foundation with **Goals, Strategies, Tactics, and Chains**. 
    * Each objective inspects current game state and decides which lower level objective will be best to achieve it. 
 
-<p align="center"><img  src="https://user-images.githubusercontent.com/17570785/50308911-03b3c380-049d-11e9-92d9-ce15669017ad.png" ></p>   
+<p align="center"><img  src="https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/monte%20carlo%20tree%20search%20mahjong.png" ></p>   
 
 
 * Reinforcement Learning
@@ -118,6 +124,8 @@
    * Q-table matrix that updates Q-table based on the **Prediction of Future Mahjong States**.
    * Q-values updated according to the **Bellman Equation**.
    
+![Deep Q action-value function](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/deep%20q%20where%20q%20hat%20%3D%3D%20action-value%20function.png)
+   
 
 ---
 
@@ -128,8 +136,18 @@
 * **“Lookahead” Search Algorithms**
 * Open World Games 
    * Typically require thousands of hours of developer and artist time to render.
-   * Become more efficient using **ML Path-Finding Algorithms**.
+   * Become mo
+   re efficient using **ML Path-Finding Algorithms**.
    * Have the potential to be unlimited in size.
+
+
+---
+#### Set up Game Locally &#x1F534;
+
+> cd project
+> virtualenv env --python=python3
+> source env/bin/activate
+> pip install -r requirements.txt
 
 
 ---
@@ -144,8 +162,13 @@
 
 --- 
 
-## References - Books [图书] &#x1F534;
+## References [图书] &#x1F534;
 
+* Shiqi Gao et al. Building a Computer Mahjong Player via Deep Convolutional Neural Networks. https://arxiv.org/abs/1906.02146
+* 
+Pau Ramon Revilla. “Whatajong.” masylum/whatajong: Open source multiplayer mahjong using HTML5 and nodejs + socket.io. https://github.com/masylum/whatajong.
+*
+*
 * Rules of Mah-Jongg - Joseph Park Babcock
 * Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
 * The Complete Book of Mah-jongg - Alan D. Millington
