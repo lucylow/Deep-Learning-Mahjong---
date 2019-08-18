@@ -41,31 +41,29 @@
 * **Bonus** [8]
     * Flower - [Plum Blossom, Orchid, Chrysanthemum, Bamboo] 4
     * Seasons - [Spring, Summer, Autumn, Winter] 4
-* Image of sample Mahjong tiles:
+* **Mahjong Combos**
+  * Heavenly Hand [天糊]
+  * Great Winds [大四喜]
+  * Great Dragons [大三元]
+  * All Kongs [十八羅漢]
+  * All Honor Tiles [字一色]
+  * Thirteen Orphans [十三幺]
+  * Nine Gates Hand [九蓮宝燈]
+  * Self Triplets [四暗刻]
+  * All in Triplets [對對糊]
+  * Mixed One Suit [混一色]
+  * All One Suit [清一色]
+  * Common Hand [平糊]
+  * Small Dragons [小三元]
+  * Small Winds [小四喜]
+
 
 ![Image source Wikipedia](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/mahjong%20tiles.png)
 
 
 
----
-
-#### Mahjong Combos &#x1F53B;
-* Heavenly Hand [天糊]
-* Great Winds [大四喜]
-* Great Dragons [大三元]
-* All Kongs [十八羅漢]
-* All Honor Tiles [字一色]
-* Thirteen Orphans [十三幺]
-* Nine Gates Hand [九蓮宝燈]
-* Self Triplets [四暗刻]
-* All in Triplets [對對糊]
-* Mixed One Suit [混一色]
-* All One Suit [清一色]
-* Common Hand [平糊]
-* Small Dragons [小三元]
-* Small Winds [小四喜]
-
 --- 
+
 
 ## Technical Mahjong Game Documentation [技术文档] &#x1F534;
 
@@ -74,12 +72,13 @@
 * **Deep Neural Network** with reinforcement learning implemented. 
 * Learn from its own game and top human players (via Classic Supervised Learning) where computations are made for every move or position.
 
-!(alt text here )[https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/game%20theory.png]
 
+![dsada](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/game%20theory.png)
 
 ---
 
 #### Machine Learning [机器学习] &#x1F53B;
+
 * Non-Player Characters (NPCs)
    * Algorithms playing as NPCs (with adjustable difficulties) respond to player’s actions in unique, unexpected ways. 
    * NPCs are non hard-coded. 
@@ -124,7 +123,7 @@
    * Q-table matrix that updates Q-table based on the **Prediction of Future Mahjong States**.
    * Q-values updated according to the **Bellman Equation**.
    
-![Deep Q action-value function](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/deep%20q%20where%20q%20hat%20%3D%3D%20action-value%20function.png)
+      ![Deep Q action-value function](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/images/deep%20q%20where%20q%20hat%20%3D%3D%20action-value%20function.png)
    
 
 ---
@@ -165,10 +164,7 @@
 ## References [图书] &#x1F534;
 
 * Shiqi Gao et al. Building a Computer Mahjong Player via Deep Convolutional Neural Networks. https://arxiv.org/abs/1906.02146
-* 
-Pau Ramon Revilla. “Whatajong.” masylum/whatajong: Open source multiplayer mahjong using HTML5 and nodejs + socket.io. https://github.com/masylum/whatajong.
-*
-*
+* Pau Ramon Revilla. “Whatajong.” masylum/whatajong: Open source multiplayer mahjong using HTML5 and nodejs + socket.io. https://github.com/masylum/whatajong.
 * Rules of Mah-Jongg - Joseph Park Babcock
 * Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
 * The Complete Book of Mah-jongg - Alan D. Millington
