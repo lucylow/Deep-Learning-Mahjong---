@@ -11,6 +11,8 @@
 
 </div>
 
+---
+
 #### Game Play &#x1F53B;
 * 3 or 4 player **draw-and-discard game** with 144 tiles based on Chinese characters and symbols.
 * Match open pairs of identical tiles, remove from board, exposing the tiles under them for play. 
@@ -25,6 +27,8 @@
 * Three-Player Mahjong [3-ka]
 * Battle Mahjong [Player vs Cartoon NPC]
 
+---
+
 
 #### Game Tile Count Per Set [Total 144] &#x1F53B;
 * **Simples** [108]
@@ -38,6 +42,8 @@
     * Flower - [Plum Blossom, Orchid, Chrysanthemum, Bamboo] 4
     * Seasons - [Spring, Summer, Autumn, Winter] 4
 
+
+---
 
 #### Mahjong Combos &#x1F53B;
 * Heavenly Hand [天糊]
@@ -65,6 +71,8 @@
 * Learn from its own game and top human players (via Classic Supervised Learning) where computations are made for every move or position.
 
 
+---
+
 #### Machine Learning [机器学习] &#x1F53B;
 * Non-Player Characters (NPCs)
    * Algorithms playing as NPCs (with adjustable difficulties) respond to player’s actions in unique, unexpected ways. 
@@ -79,6 +87,8 @@
    
 * Game Aesthetics
    * Ex: **Computer Vision Algorithms** used for mahjong textures and objects to **render dynamically** as player moves tiles on the board.
+
+---
 
 
 #### Deep Learning [深度学习] &#x1F53B;
@@ -105,8 +115,12 @@
    * Q-table matrix that updates Q-table based on the **Prediction of Future Mahjong States**.
    * Q-values updated according to the **Bellman Equation**.
    
+<p align="center"><img  src="https://user-images.githubusercontent.com/17570785/50308911-03b3c380-049d-11e9-92d9-ce15669017ad.png" ></p>   
+
+---
 
 #### Search Gaming Optimization Algorithm [搜索优化] &#x1F53B;
+
 * **Alpha-Beta Prunning**
    * AI weeds out bad moves.
 * **“Lookahead” Search Algorithms**
@@ -116,7 +130,10 @@
    * Have the potential to be unlimited in size.
 
 
+---
+
 #### Database [数据库] &#x1F534;
+
 * Optimize game data with databases.
 * **Pre-Computed Moves** for the beginning/end phrases of the game.
 * Two Databases
@@ -126,6 +143,7 @@
 --- 
 
 ## References - Books [图书] &#x1F534;
+
 * Rules of Mah-Jongg - Joseph Park Babcock
 * Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
 * The Complete Book of Mah-jongg - Alan D. Millington
