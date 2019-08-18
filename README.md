@@ -99,6 +99,9 @@
    * Knowledge based hierarchy foundation with **Goals, Strategies, Tactics, and Chains**. 
    * Each objective inspects current game state and decides which lower level objective will be best to achieve it. 
 
+<p align="center"><img  src="https://user-images.githubusercontent.com/17570785/50308911-03b3c380-049d-11e9-92d9-ce15669017ad.png" ></p>   
+
+
 * Reinforcement Learning
    * **Markov Decision** process to make decisions involving chain of if-then statements. 
    * **Positive or Negative Reward**. 
@@ -115,7 +118,6 @@
    * Q-table matrix that updates Q-table based on the **Prediction of Future Mahjong States**.
    * Q-values updated according to the **Bellman Equation**.
    
-<p align="center"><img  src="https://user-images.githubusercontent.com/17570785/50308911-03b3c380-049d-11e9-92d9-ce15669017ad.png" ></p>   
 
 ---
 
