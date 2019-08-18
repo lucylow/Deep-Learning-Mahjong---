@@ -143,11 +143,12 @@
 ---
 #### Set up Game Locally &#x1F534;
 
-> cd project
-> virtualenv env --python=python3
-> source env/bin/activate
-> pip install -r requirements.txt
-
+'''python
+cd project
+virtualenv env --python=python3
+source env/bin/activate
+pip install -r requirements.txt
+'''
 
 ---
 
