@@ -165,7 +165,7 @@ pip install -r requirements.txt
 ## References [图书] &#x1F534;
 
 * Shiqi Gao et al. Building a Computer Mahjong Player via Deep Convolutional Neural Networks. https://arxiv.org/abs/1906.02146
-* Pau Ramon Revilla. “Whatajong.” masylum/whatajong: Open source multiplayer mahjong using HTML5 and nodejs + socket.io. https://github.com/masylum/whatajong.
+* Pau Ramon Revilla. Open source multiplayer mahjong https://github.com/masylum/whatajong
 * Rules of Mah-Jongg - Joseph Park Babcock
 * Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
 * The Complete Book of Mah-jongg - Alan D. Millington
