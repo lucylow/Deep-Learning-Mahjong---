@@ -100,7 +100,7 @@
 
 * DL Game Play
    * **AI will win through intelligence** rather than faster mechanicals speed.
-   * Computers can programatically issue commands instantly whereas humans must physically move a mouse or hit the keyboard.      * Specifically, humans average 300 actions per minute.
+   * Computers can programatically issue commands instantly whereas humans must physically move a mouse or hit the keyboard.  
    * Knowledge based hierarchy foundation with **Goals, Strategies, Tactics, and Chains**. 
    * Each objective inspects current game state and decides which lower level objective will be best to achieve it. 
 
