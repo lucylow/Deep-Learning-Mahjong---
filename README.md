@@ -135,22 +135,8 @@
 * **“Lookahead” Search Algorithms**
 * Open World Games 
    * Typically require thousands of hours of developer and artist time to render.
-   * Become mo
-   re efficient using **ML Path-Finding Algorithms**.
-   * Have the potential to be unlimited in size.
-
-
----
-#### Set up Game Locally &#x1F534;
-
-> cd project
-
-> virtualenv env --python=python3
-
-> source env/bin/activate
-
-> pip install -r requirements.txt
-
+   * Become more efficient using **ML Path-Finding Algorithms**.
+   * Have the potential to be unlimited in size
 
 ---
 
