@@ -153,10 +153,12 @@
 ## References [图书] &#x1F534;
 
 * Shiqi Gao et al. Building a Computer Mahjong Player via Deep Convolutional Neural Networks. https://arxiv.org/abs/1906.02146
+* Open Spiel. A Framework For Reinforcement Learning in Games. https://deepmind.com/research/open-source/openspiel
 * Pau Ramon Revilla. Open source multiplayer mahjong https://github.com/masylum/whatajong
 * Rules of Mah-Jongg - Joseph Park Babcock
 * Maajh: The American Version of the Ancient Chinese Game - Viola L. Cecil
 * The Complete Book of Mah-jongg - Alan D. Millington
+
 
 ###### For my grandma
 
