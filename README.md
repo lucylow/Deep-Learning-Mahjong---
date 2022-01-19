@@ -13,7 +13,8 @@
 
 #### Motivation &#x1F53B;
 
-Watching my grandma play mahjong online and I was curious how the NPCs made their decisions. 
+Watching my grandma play mahjong online and I was curious how the NPCs made their decisions.
+
 ---
 
 
