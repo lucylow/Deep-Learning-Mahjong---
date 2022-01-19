@@ -11,7 +11,11 @@
 
 </div>
 
+#### Motivation &#x1F53B;
+
+Watching my grandma play mahjong online and I was curious how the NPCs made their decisions. 
 ---
+
 
 #### Game Play &#x1F53B;
 * 3 or 4 player **draw-and-discard game** with 144 tiles based on Chinese characters and symbols.
