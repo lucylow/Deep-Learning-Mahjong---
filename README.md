@@ -165,8 +165,4 @@ Watching my grandma play mahjong online and I was curious how the NPCs made thei
 * The Complete Book of Mah-jongg - Alan D. Millington
 
 
-###### For my grandma
-
-
-
 
