@@ -1,0 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+JP:wght@400;500;700&family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap');
+@import 'tailwindcss';
+
+*, *::before, *::after { box-sizing: border-box; }
+body { margin: 0; padding: 0; background: #040608; }
+
+::-webkit-scrollbar { display: none; }
+* { scrollbar-width: none; }

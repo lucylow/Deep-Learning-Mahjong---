@@ -1,0 +1,551 @@
+{
+  "version": "5",
+  "dialect": "mysql",
+  "id": "9637d09e-4772-497d-b5dc-0fd9fdc3769e",
+  "prevId": "d83f8cab-1882-4ef2-b4d8-ef3aa882e56f",
+  "tables": {
+    "mahjong_ai_decisions": {
+      "name": "mahjong_ai_decisions",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "matchId": {
+          "name": "matchId",
+          "type": "varchar(96)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "turn": {
+          "name": "turn",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "seat": {
+          "name": "seat",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "policy": {
+          "name": "policy",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "actionJson": {
+          "name": "actionJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "rationale": {
+          "name": "rationale",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "objective": {
+          "name": "objective",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "confidence": {
+          "name": "confidence",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "contributionsJson": {
+          "name": "contributionsJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "mahjong_ai_decisions_id": {
+          "name": "mahjong_ai_decisions_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "mahjong_analyses": {
+      "name": "mahjong_analyses",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "matchId": {
+          "name": "matchId",
+          "type": "varchar(96)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "turn": {
+          "name": "turn",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "seat": {
+          "name": "seat",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "policy": {
+          "name": "policy",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "analysisJson": {
+          "name": "analysisJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "mahjong_analyses_id": {
+          "name": "mahjong_analyses_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "mahjong_benchmark_runs": {
+      "name": "mahjong_benchmark_runs",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "seedsJson": {
+          "name": "seedsJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "metricsJson": {
+          "name": "metricsJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "mahjong_benchmark_runs_id": {
+          "name": "mahjong_benchmark_runs_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "mahjong_events": {
+      "name": "mahjong_events",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "matchId": {
+          "name": "matchId",
+          "type": "varchar(96)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "sequence": {
+          "name": "sequence",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "eventType": {
+          "name": "eventType",
+          "type": "varchar(48)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "actorSeat": {
+          "name": "actorSeat",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "actionJson": {
+          "name": "actionJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "stateJson": {
+          "name": "stateJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "stateHash": {
+          "name": "stateHash",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "mahjong_events_id": {
+          "name": "mahjong_events_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "mahjong_matches": {
+      "name": "mahjong_matches",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "varchar(96)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "ownerUserId": {
+          "name": "ownerUserId",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "ruleSet": {
+          "name": "ruleSet",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'riichi'"
+        },
+        "seed": {
+          "name": "seed",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "phase": {
+          "name": "phase",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'waiting'"
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        },
+        "updatedAt": {
+          "name": "updatedAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "onUpdate": true,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "mahjong_matches_id": {
+          "name": "mahjong_matches_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "mahjong_review_moments": {
+      "name": "mahjong_review_moments",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "varchar(128)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "matchId": {
+          "name": "matchId",
+          "type": "varchar(96)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "turn": {
+          "name": "turn",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "category": {
+          "name": "category",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "title": {
+          "name": "title",
+          "type": "varchar(160)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "originalActionJson": {
+          "name": "originalActionJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "analysisJson": {
+          "name": "analysisJson",
+          "type": "json",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "stateHash": {
+          "name": "stateHash",
+          "type": "varchar(32)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "mahjong_review_moments_id": {
+          "name": "mahjong_review_moments_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {},
+      "checkConstraint": {}
+    },
+    "users": {
+      "name": "users",
+      "columns": {
+        "id": {
+          "name": "id",
+          "type": "int",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": true
+        },
+        "openId": {
+          "name": "openId",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false
+        },
+        "name": {
+          "name": "name",
+          "type": "text",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "email": {
+          "name": "email",
+          "type": "varchar(320)",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "loginMethod": {
+          "name": "loginMethod",
+          "type": "varchar(64)",
+          "primaryKey": false,
+          "notNull": false,
+          "autoincrement": false
+        },
+        "role": {
+          "name": "role",
+          "type": "enum('user','admin')",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "'user'"
+        },
+        "createdAt": {
+          "name": "createdAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        },
+        "updatedAt": {
+          "name": "updatedAt",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "onUpdate": true,
+          "default": "(now())"
+        },
+        "lastSignedIn": {
+          "name": "lastSignedIn",
+          "type": "timestamp",
+          "primaryKey": false,
+          "notNull": true,
+          "autoincrement": false,
+          "default": "(now())"
+        }
+      },
+      "indexes": {},
+      "foreignKeys": {},
+      "compositePrimaryKeys": {
+        "users_id": {
+          "name": "users_id",
+          "columns": [
+            "id"
+          ]
+        }
+      },
+      "uniqueConstraints": {
+        "users_openId_unique": {
+          "name": "users_openId_unique",
+          "columns": [
+            "openId"
+          ]
+        }
+      },
+      "checkConstraint": {}
+    }
+  },
+  "views": {},
+  "_meta": {
+    "schemas": {},
+    "tables": {},
+    "columns": {}
+  },
+  "internal": {
+    "tables": {},
+    "indexes": {}
+  }
+}

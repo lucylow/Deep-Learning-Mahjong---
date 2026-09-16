@@ -1,0 +1,1 @@
+ALTER TABLE `mahjong_benchmark_runs` ADD `ownerUserId` int;

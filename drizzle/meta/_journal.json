@@ -1,0 +1,48 @@
+{
+  "version": "7",
+  "dialect": "mysql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "5",
+      "when": 1763372440610,
+      "tag": "0000_elite_eternals",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "5",
+      "when": 1786754048366,
+      "tag": "0001_brainy_random",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1786754631018,
+      "tag": "0002_secret_mordo",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1786755824350,
+      "tag": "0003_uneven_shockwave",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "5",
+      "when": 1786990739194,
+      "tag": "0004_reflective_hercules",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "5",
+      "when": 1786991313505,
+      "tag": "0005_jazzy_madame_hydra",
+      "breakpoints": true
+    }
+  ]
+}
