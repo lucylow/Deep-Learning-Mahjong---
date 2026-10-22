@@ -3,6 +3,7 @@
 ![](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/mahjong-home.png?raw=true)
 ![](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/mahjong-arena.png?raw=true)
 ![](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/mahjong-learn.png?raw=true)
+![](https://github.com/lucylow/Deep-Learning-Mahjong---/blob/master/mahjong-review.jpg?raw=true)
 
 ## Mahjong [麻將] &#x1F534;
 
